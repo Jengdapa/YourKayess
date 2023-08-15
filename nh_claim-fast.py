@@ -70,7 +70,7 @@ def main(data):
 
         stop.clear()
 
-    print(f'{fails} failed attempt{"s"*(fails > 1)}' if fails else 'SUCCEED!!!')
+    print(f'{fails} Claim Gagal ajg eh maaf kasar{"s"*(fails > 1)}' if fails else 'Claim Income Berhasil Lur!!!')
 
 
 def print_wait(stop):
