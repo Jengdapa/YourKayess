@@ -78,7 +78,7 @@ def print_wait(stop):
         if not stop:
             break
 
-        print(f'waiting{dot:<3}', end='\r')
+        print(f'Sabar Nyet Lagi Di Proses{dot:<3}', end='\r')
         time.sleep(0.5)
 
 
