@@ -124,7 +124,7 @@ def check_claim(sess_html, is_claimed):
 
     is_logged = sess_html.select('p.userid')
     message = (
-        f'{"ALREADY "*is_claimed}CLAIMED: {n_claim+(not is_claimed)}/{PERIOD_D.day} DAYS'
+        f'{"Usah Di "*is_claimed}Cok besok lagi: {n_claim+(not is_claimed)}/{PERIOD_D.day} DAYS'
         if is_logged
         else 'ERROR: Wrong Login Credential'
     )
