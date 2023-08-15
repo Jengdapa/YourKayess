@@ -152,7 +152,7 @@ if __name__ == '__main__':
     else:
         print('\n'.join(f'{str(i+1)+".":<3} {j.get("username")}' for i, j in enumerate(data)))
 
-        num = input(f'Starting Point(1 - {len(data)}): ') or 1
+        num = input(f'Pilih Si Atas Mau Akun Yang Mana(1 - {len(data)}): ') or 1
 
         print()
 
